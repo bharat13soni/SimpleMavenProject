@@ -3,7 +3,7 @@ agent{
     label 'linux'
 }
 tools{
-    maven 'M3'
+    maven 'maven 3.6.3'
 }
 
 stages{
