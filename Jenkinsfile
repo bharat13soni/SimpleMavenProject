@@ -7,7 +7,7 @@ tools{
 stages{
     stage('checkout'){
         steps{
-            git "https://github.com/bharat13soni/SimpleMavenProject.git"
+            git url: "https://github.com/bharat13soni/SimpleMavenProject.git", branch: 'main'
         }
 
     }
